@@ -1,0 +1,275 @@
+<!doctype html>
+<html lang="lt">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>„Lyga“ — privatumo politika ir pagalba</title>
+<meta name="description" content="„Lyga“ — Lietuvos futbolo rezultatų programa iPhone telefonui. Privatumo politika (š/lt ir en) bei palaikymas.">
+<style>
+  :root {
+    --bg: #fafaf9;
+    --text: #181915;
+    --soft: #5b5e58;
+    --rule: #d9dbd4;
+    --accent: #256d2b;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0c1310;
+      --text: #e6e8e4;
+      --soft: #9aa097;
+      --rule: #232a24;
+      --accent: #7ec985;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0 auto;
+    max-width: 44rem;
+    padding: 2rem 1.25rem 3rem;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    line-height: 1.55;
+    font-size: 1rem;
+  }
+  header, footer { }
+  h1 { font-size: 1.5rem; margin: 0 0 .35rem; }
+  .meta { color: var(--soft); font-size: .9rem; margin: 0 0 1rem; }
+  nav { margin: 0 0 2rem; font-size: .95rem; }
+  nav a { margin-right: 1rem; color: var(--accent); }
+  h2 { font-size: 1.15rem; margin: 2.25rem 0 .6rem; }
+  h3 { font-size: 1rem; margin: 1.5rem 0 .4rem; }
+  p { margin: 0 0 .8rem; }
+  ul, ol { margin: 0 0 .9rem; padding-left: 1.35rem; }
+  li { margin: 0 0 .35rem; }
+  a { color: var(--accent); }
+  dl { margin: 0 0 .9rem; }
+  dt { font-weight: 600; margin-top: .7rem; }
+  dd { margin: .15rem 0 0; padding-left: 0; }
+  code { font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; font-size: .88em; }
+  footer {
+    margin-top: 3rem; padding-top: 1rem; border-top: 1px solid var(--rule);
+    color: var(--soft); font-size: .85rem;
+  }
+  blockquote { margin: 0 0 .9rem; padding-left: 1rem; border-left: 3px solid var(--rule); color: var(--soft); }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>„Lyga“ — privatumo politika ir pagalba</h1>
+  <p class="meta">Lietuvos futbolo rezultatų programa iPhone telefonui · Paskut. atnaujinta:
+    <time datetime="2026-11-05">2026-11-05</time></p>
+</header>
+
+<nav aria-label="Kalbos / Languages">
+  <a href="#lt">Lietuviškai</a>
+  <a href="#en">In English</a>
+</nav>
+
+<main>
+
+<section id="lt" lang="lt">
+  <h2>Apie „Lyga“</h2>
+  <p>„Lyga“ — nemokama iPhone programa, rodanti Lietuvos futbolo rezultatus: gyvas rungtynes,
+    turnyrines lenteles, artėjančias rungtynes ir rungtynių eigą iš TOPLYGA bei LFF lygų
+    (I lyga, II lyga, Moterų A lyga, LFF taurė). Yra namų ekrano valdikliai, ekrano užrakinimo
+    rodmenys ir Live Activity su gyvu rezultatu, taip pat pranešimai apie įvarčius.
+    Paskyros nereikia — įdiegiate ir naudojatės iš kart.</p>
+  <p>Po to seka visa, ką reikia žinoti apie duomenis. Trumpai: programa beveik apie jus
+    nieko nežino, o tai, ką žino, lieka jūsų telefone.</p>
+
+  <h2>Privatumo santrauka</h2>
+  <ul>
+    <li><strong>Paskyros nereikia.</strong> Niekuo neregistruojatės, jokių vardų ar el. pašto adresų.</li>
+    <li><strong>Nesekama.</strong> Programoje nėra analitikos, reklamų ir jokių sekimo priemonių.
+      Niekam neperduodame duomenų reklamos statymui (angl. „tracking“).</li>
+    <li><strong>Pasirinkimai lieka telefone.</strong> Sekamos lygos ir komandos, pranešimų
+      bei rezultatų slėpimo nustatymai saugomi tik jūsų įrenginyje.</li>
+    <li><strong>Serveryje — tik tai, ko reikia pranešimams.</strong> Įjungus pranešimus arba
+      Live Activity, programos serveryje saugomas iOS pranešimų tokenas ir — registracijų
+      apsaugai — druskos suderinta IP adreso dalies maiša (niekada pats adresas).</li>
+    <li><strong>Duomenys neilgai.</strong> Pranešimų įrašas ištrinamas iškart išjungus
+      pranešimus arba ne vėliau kaip po 35 dienų be atnaujinimo. Live Activity tokenas
+      neišlieka ilgiau nei 12 valandų po rungtynių pradžios, o paprastai — iki rungtynių pabaigos.</li>
+  </ul>
+
+  <h2>Runigtynių duomenys ir iš kur jie</h2>
+  <p>Rezultatai, lentelės, tvarkaraščiai ir komandų logotipai skaitomi iš viešai prieinamo
+    saugyklos aplanko per HTTPS. Tai visiems matomi rungtynių duomenys — jokios asmeninės
+    informacijos juose nėra. Programoje Nustatymuose matote, iš kur skaitoma („Šaltinis“)
+    ir kada duomenys atnaujinti („Atnaujinta“).</p>
+  <p>Programa savo duomenų neiš svetainių neskaityna (scrape): tai daro atskiras duomenų
+    procesas, kurio kodas atviras — <a href="https://github.com/covertopcover/LTSports">github.com/covertopcover/LTSports</a>.</p>
+
+  <h2>Ką saugo jūsų telefonas</h2>
+  <p>Programa savo duomenis laiko jūsų įrenginyje:</p>
+  <ul>
+    <li>sekamos lygos ir komandos („Mano sportas“);</li>
+    <li>pranešimų nustatymai (įvarčiai, rungtynių pradžia, pabaiga, raudona kortelė);</li>
+    <li>rezultatų slėpimo (spoiler) nustatymai.</li>
+  </ul>
+  <p>Šie duomenys per App Group pasiekiami ir namų ekrano valdikliams, kad visoje sistemoje
+    matytumėte tą patį sąrašą. Niekas iš nurodyto nelieka toliau nei jūsų iPhone — ištrynus
+    programą, dingsta ir šie duomenys.</p>
+
+  <h2>Pranešimai ir Live Activity (ką laiko serveris)</h2>
+  <p>Kai įjungiate įvarčio, rungtynių pradžios, pabaigos arba raudonos kortelės pranešimus
+    arba leidžiate Live Activity atsinaujinti be programos atidarymo, jūsų įrenginio iOS
+    pranešimų tokenas išsaugomas „Lyga“ serveryje. Jis:</p>
+  <ul>
+    <li>naudojamas vien tam, kad pranešimai ir Live Activity atnaujinimai būtų pristatyti
+      apie jūsų pasirinktas rungtynes;</li>
+    <li>atnaujinamas kaskart paleidus programą;</li>
+    <li>ištrinamas, jei 35 dienas jo neatnaujina.</li>
+  </ul>
+  <p>Live Activity tokenas laikomas trumpiau: jis pririšamas prie konkrečių rungtynių ir
+    trinamas ne vėliau kaip po 12 valandų po rungtynių pradžios. Paprastai anksčiau —
+    kada rungtynės baigia.</p>
+  <p>Registruojant tokeną, serveris taip pat laiko <strong>druskos suderintą IP adreso
+    pirminės dalies maišą</strong> (salted prefix-hash). Pilnas IP adresas niekada neišlieka,
+    o maiša turi vieną paskirtį — apriboti registracijų kiekį iš vieno tinklo per valandą
+    (rate limit). Nė vieno žmogaus ja neidentifikuojame.</p>
+
+  <h2>Duomenų šalinimas</h2>
+  <ul>
+    <li>Išjungę pranešimus (programos Nustatymuose), jūsų įrašas serveryje ištrinamas iš karto.</li>
+    <li>Ištrynę programą, vietiniai duomenys (įskaitant App Group) dingsta su ja; serverio
+      įrašas nebenaudojamas ir ištrinamas savaime — ne vėliau kaip po 35 dienų.</li>
+    <li>Norite, kad serveryje likęs įrašas būtų ištrintas greičiau arba turite kitą prašymą?
+      Rašykite kaip žemiau (Kontaktas).</li>
+  </ul>
+
+  <h2>Dažniausi klausimai</h2>
+  <dl>
+    <dt>Iš kur gauvota rungtynių duomenys?</dt>
+    <dd>Iš viešo saugyklos aplanko per HTTPS. Nustatymuose („Šaltinis“) matote adresą,
+      o („Atnaujinta“) — kada paskutinį kartą atnaujinta.</dd>
+    <dt>Kaip pasekti komandą ar lygą?</dt>
+    <dd>Meniu (viršuje dešinėje) → „Redaguoti“ → „Mano sportas“. Pažymėkite lygą ar komandą —
+      jų rungtynės atsiras rezultatų sąraše viršuje.</dd>
+    <dt>Kaip įjungti pranešimus?</dt>
+    <dd>Programos Nustatymuose prie komandos: įvarčiai, rungtynių pradžia, pabaiga ir
+      raudona kortelė. Jei iOS anksčiau klausė leidimo ir jį atmetėte, atverkite
+      iOS Nustatymai → Pranešimai → „Lyga“.</dd>
+    <dt>Kodėl rezultatas neatsinaujino?</dt>
+    <dd>Gyvose rungtynėse rezultatas atsinaujina kas minutę. Nustatymuose („Atnaujinta“)
+      matėte, kada gautus duomenys. Jei įtariate klaidą, praneškite GitHub saugykloje žemiau.</dd>
+    <dt>Sezonas baigiasi — kas nutiks programai?</dt>
+    <dd>Niekas. Rungtynės, lentelės ir taurės mačai lieka žiūrimi; artėjančios rungtynės
+      pasirodo, kai tik jų kalendorius paskelbiamas.</dd>
+    <dt>Kokią versiją reikia?</dt>
+    <dd>iPhone su iOS 17 arba naujesne. Programa nemokama.</dd>
+  </dl>
+
+  <h2>Kontaktas</h2>
+  <p>Klausimais apie šį puslapį, duomenų ištrynimą arba kitais prašymais atverkite problemą
+    (issue) projektui: <a href="https://github.com/covertopcover/LTSports/issues">github.com/covertopcover/LTSports/issues</a>.</p>
+</section>
+
+<section id="en" lang="en">
+  <h2>About “Lyga”</h2>
+  <p>“Lyga” is a free iPhone app showing Lithuanian football: live scores, standings,
+    fixtures and match detail from TOPLYGA and the LFF competitions (I lyga, II lyga,
+    Moterų A lyga, the LFF Cup). It includes home-screen widgets, Lock Screen widgets and
+    a Live Activity with the live score, plus goal notifications. No account is needed —
+    install and use it right away.</p>
+  <p>What follows is everything worth knowing about data. In short: the app knows almost
+    nothing about you, and what it does know stays on your phone.</p>
+
+  <h2>Privacy in short</h2>
+  <ul>
+    <li><strong>No account required.</strong> Nothing to sign up for, no names or e-mail addresses.</li>
+    <li><strong>No tracking.</strong> No analytics, ads or tracking SDKs in the app. No data is
+      passed on for advertising (“tracking”).</li>
+    <li><strong>Your choices stay on the phone.</strong> Followed leagues and teams, notification
+      settings and score-hiding options are stored only on your device.</li>
+    <li><strong>The server only sees what notifications need.</strong> When you enable
+      notifications or a Live Activity, the app's server keeps the iOS push token and — for
+      registration abuse limits — a salted hash of an IP-address prefix (never the address itself).</li>
+    <li><strong>Data does not last.</strong> A notification record is deleted the moment you turn
+      notifications off, and at the latest after 35 days without a refresh. A Live Activity
+      token is never kept longer than 12 hours after kickoff — usually until full time.</li>
+  </ul>
+
+  <h2>Match data and where it comes from</h2>
+  <p>Scores, tables, fixtures and club logos are read from a publicly available storage bucket
+    over HTTPS. This is publicly visible match data; it contains no personal information.
+    The app's Settings shows where data is read from (“Šaltinis”) and when it was last
+    refreshed (“Atnaujinta”).</p>
+  <p>The app itself does not scrape websites: that is done by a separate data pipeline whose
+    source code is open — <a href="https://github.com/covertopcover/LTSports">github.com/covertopcover/LTSports</a>.</p>
+
+  <h2>What your phone keeps</h2>
+  <p>The app keeps its data on your device:</p>
+  <ul>
+    <li>followed leagues and teams (“Mano sportas”);</li>
+    <li>notification settings (goals, kickoff, final, red card);</li>
+    <li>score-hiding (spoiler) settings.</li>
+  </ul>
+  <p>These are shared with the home-screen widgets through an App Group, so the same list is
+    visible across the system. None of it lives beyond your iPhone — when you delete the app,
+    the data goes with it.</p>
+
+  <h2>Notifications and Live Activities (what the server keeps)</h2>
+  <p>When you enable goal, kickoff, final or red-card notifications for a team, or let a
+    Live Activity update without opening the app, your device's iOS push token is stored on
+    the “Lyga” server. It:</p>
+  <ul>
+    <li>is used only to deliver notifications and Live Activity updates for the matches you chose;</li>
+    <li>is refreshed every time you launch the app;</li>
+    <li>is deleted if it has not been refreshed for 35 days.</li>
+  </ul>
+  <p>A Live Activity token is kept for less time: it is tied to a specific match and is dropped
+    at most 12 hours after kickoff. Usually earlier — when the match reaches full time.</p>
+  <p>Along with a token registration, the server also keeps a <strong>salted prefix-hash of the
+    IP address</strong> (salted prefix-hash). The full IP address is never stored, and the hash
+    has one purpose: limiting how many registrations may come from one network per hour
+    (a rate limit). Nobody is identified with it.</p>
+
+  <h2>Removing your data</h2>
+  <ul>
+    <li>Turning notifications off (in the app's Settings) deletes your server record at once.</li>
+    <li>Deleting the app removes all local data (including the App Group); the server record is
+      no longer used and is deleted automatically — at the latest after 35 days.</li>
+    <li>Want the remaining record gone sooner, or have another request? See Contact below.</li>
+  </ul>
+
+  <h2>Common questions</h2>
+  <dl>
+    <dt>Where does the match data come from?</dt>
+    <dd>From a public storage bucket over HTTPS. Settings (“Šaltinis”) shows the address and
+      (“Atnaujinta”) the last refresh time.</dd>
+    <dt>How do I follow a team or league?</dt>
+    <dd>Menu button (top right) → “Redaguoti” → “Mano sportas”. Pick a league or team and their
+      matches move to the top of the scoreboard.</dd>
+    <dt>How do I turn notifications on?</dt>
+    <dd>In the app's Settings, on a team: goals, kickoff, final and red card. If iOS asked for
+      permission earlier and it was denied, open iOS Settings → Notifications → “Lyga”.</dd>
+    <dt>Why has the score not refreshed?</dt>
+    <dd>During a live match the score refreshes every minute. Settings (“Atnaujinta”) shows
+      when data was last fetched. If a result looks wrong, report it on GitHub below.</dd>
+    <dt>The season is over — what happens to the app?</dt>
+    <dd>Nothing. Finished matches, tables and cup ties stay available; upcoming matches appear
+      as soon as their schedule is published.</dd>
+    <dt>What version do I need?</dt>
+    <dd>An iPhone with iOS 17 or newer. The app is free.</dd>
+  </dl>
+
+  <h2>Contact</h2>
+  <p>Questions about this page, data-deletion requests or anything else: open an issue on the
+    project's repository: <a href="https://github.com/covertopcover/LTSports/issues">github.com/covertopcover/LTSports/issues</a>.</p>
+</section>
+
+</main>
+
+<footer>
+  „Lyga“ — Lietuvos futbolo rezultatų programa (iOS). Šaltinio kodas:
+  <a href="https://github.com/covertopcover/LTSports">covertopcover/LTSports</a>.
+  Atnaujinta: <time datetime="2026-11-05">2026-11-05</time>.
+</footer>
+
+</body>
+</html>
