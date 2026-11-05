@@ -73,36 +73,40 @@
 
 <section id="lt" lang="lt">
   <h2>Apie „Lyga“</h2>
-  <p>„Lyga“ — nemokama iPhone programa, rodanti Lietuvos futbolo rezultatus: gyvas rungtynes,
-    turnyrines lenteles, artėjančias rungtynes ir rungtynių eigą iš TOPLYGA bei LFF lygų
-    (I lyga, II lyga, Moterų A lyga, LFF taurė). Yra namų ekrano valdikliai, ekrano užrakinimo
-    rodmenys ir Live Activity su gyvu rezultatu, taip pat pranešimai apie įvarčius.
-    Paskyros nereikia — įdiegiate ir naudojatės iš kart.</p>
-  <p>Po to seka visa, ką reikia žinoti apie duomenis. Trumpai: programa beveik apie jus
-    nieko nežino, o tai, ką žino, lieka jūsų telefone.</p>
+  <p>„Lyga“ — nemokama iPhone programa, rodanti Lietuvos futbolo rezultatus: gyvas
+    rungtynes, turnyrines lenteles, artėjančias rungtynes ir rungtynių eigą iš TOPLYGA bei
+    LFF lygų (I lyga, II lyga, Moterų A lyga, LFF taurė). Yra namų ekrano valdikliai,
+    rodmenys užrakinimo ekrane, Live Activity su gyvu rezultatu ir pranešimai apie įvarčius.
+    Paskyros nereikia — įdiegiate ir naudojatės iš karto.</p>
+  <p>Toliau — visa, ką reikia žinoti apie duomenis. Trumpai: programa beveik nieko nežino
+    apie jus, o tai, ką žino, lieka jūsų telefone.</p>
 
   <h2>Privatumo santrauka</h2>
   <ul>
-    <li><strong>Paskyros nereikia.</strong> Niekuo neregistruojatės, jokių vardų ar el. pašto adresų.</li>
-    <li><strong>Nesekama.</strong> Programoje nėra analitikos, reklamų ir jokių sekimo priemonių.
-      Niekam neperduodame duomenų reklamos statymui (angl. „tracking“).</li>
-    <li><strong>Pasirinkimai lieka telefone.</strong> Sekamos lygos ir komandos, pranešimų
-      bei rezultatų slėpimo nustatymai saugomi tik jūsų įrenginyje.</li>
+    <li><strong>Paskyros nereikia.</strong> Niekuo neregistruojatės — jokių vardų, jokių
+      el. pašto adresų.</li>
+    <li><strong>Nesekama.</strong> Programoje nėra nei analitikos, nei reklamų, nei jokių
+      kitų sekimo priemonių. Duomenys jokiais tikslais neparduodami ir neskelbiami.</li>
+    <li><strong>Jūsų pasirinkimai lieka telefone.</strong> Sekamos lygos ir komandos,
+      pranešimų nustatymai ir rezultatų slėpimas saugomi tik jūsų įrenginyje.</li>
     <li><strong>Serveryje — tik tai, ko reikia pranešimams.</strong> Įjungus pranešimus arba
-      Live Activity, programos serveryje saugomas iOS pranešimų tokenas ir — registracijų
-      apsaugai — druskos suderinta IP adreso dalies maiša (niekada pats adresas).</li>
-    <li><strong>Duomenys neilgai.</strong> Pranešimų įrašas ištrinamas iškart išjungus
-      pranešimus arba ne vėliau kaip po 35 dienų be atnaujinimo. Live Activity tokenas
-      neišlieka ilgiau nei 12 valandų po rungtynių pradžios, o paprastai — iki rungtynių pabaigos.</li>
+      Live Activity, serveryje saugomas iOS pranešimų tokenas ir — apsaugai nuo registracijų
+      apgaulės — su druska (angl. „salted“) paruošta IP adreso pirminės dalies maiša. Paties
+      adreso serveryje niekada nėra.</li>
+    <li><strong>Duomenys nesaugomi ilgai.</strong> Pranešimų įrašas ištrinamas iš karto
+      išjungus pranešimus, o be atnaujinimo — ne vėliau kaip po 35 dienų. Live Activity
+      tokenas nesaugomas ilgiau kaip 12 valandų po rungtynių pradžios; paprastai dingsta
+      anksčiau — pasibaigus rungtynėms.</li>
   </ul>
 
-  <h2>Runigtynių duomenys ir iš kur jie</h2>
-  <p>Rezultatai, lentelės, tvarkaraščiai ir komandų logotipai skaitomi iš viešai prieinamo
-    saugyklos aplanko per HTTPS. Tai visiems matomi rungtynių duomenys — jokios asmeninės
-    informacijos juose nėra. Programoje Nustatymuose matote, iš kur skaitoma („Šaltinis“)
-    ir kada duomenys atnaujinti („Atnaujinta“).</p>
-  <p>Programa savo duomenų neiš svetainių neskaityna (scrape): tai daro atskiras duomenų
-    procesas, kurio kodas atviras — <a href="https://github.com/covertopcover/LTSports">github.com/covertopcover/LTSports</a>.</p>
+  <h2>Rungtynių duomenys ir iš kur jie</h2>
+  <p>Rezultatai, lentelės, tvarkaraščiai ir komandų logotipai skaitomi iš viešai
+    prieinamos saugyklos per HTTPS. Tai vieši rungtynių duomenys — jokios asmeninės
+    informacijos juose nėra. Programos „Nustatymuose“ matote, iš kur atsisiunčiama
+    („Šaltinis“), ir kada duomenys atnaujinti („Atnaujinta“).</p>
+  <p>Pati programa duomenų iš svetainių nerenka — tai daro atskiras duomenų procesas, kuris
+    serveryje atnaujina rezultatus kas minutę. Jo kodas atviras:
+    <a href="https://github.com/covertopcover/LTSports">github.com/covertopcover/LTSports</a>.</p>
 
   <h2>Ką saugo jūsų telefonas</h2>
   <p>Programa savo duomenis laiko jūsų įrenginyje:</p>
@@ -111,62 +115,63 @@
     <li>pranešimų nustatymai (įvarčiai, rungtynių pradžia, pabaiga, raudona kortelė);</li>
     <li>rezultatų slėpimo (spoiler) nustatymai.</li>
   </ul>
-  <p>Šie duomenys per App Group pasiekiami ir namų ekrano valdikliams, kad visoje sistemoje
-    matytumėte tą patį sąrašą. Niekas iš nurodyto nelieka toliau nei jūsų iPhone — ištrynus
-    programą, dingsta ir šie duomenys.</p>
+  <p>Šie duomenys per App Group pasiekiami ir namų ekrano valdikliams — taip visur matote tą
+    patį sąrašą. Niekas iš jų neišeina už jūsų iPhone ribų: ištrynus programą, dingsta ir duomenys.</p>
 
-  <h2>Pranešimai ir Live Activity (ką laiko serveris)</h2>
-  <p>Kai įjungiate įvarčio, rungtynių pradžios, pabaigos arba raudonos kortelės pranešimus
-    arba leidžiate Live Activity atsinaujinti be programos atidarymo, jūsų įrenginio iOS
-    pranešimų tokenas išsaugomas „Lyga“ serveryje. Jis:</p>
+  <h2>Pranešimai ir Live Activity: ką laiko serveris</h2>
+  <p>Kai įjungiate pranešimus apie įvarčius, rungtynių pradžią, pabaigą arba raudoną
+    kortelę, arba leidžiate Live Activity atsinaujinti neatidarę programos, jūsų įrenginio
+    iOS pranešimų (push) tokenas išsaugomas „Lyga“ serveryje. Jis:</p>
   <ul>
-    <li>naudojamas vien tam, kad pranešimai ir Live Activity atnaujinimai būtų pristatyti
-      apie jūsų pasirinktas rungtynes;</li>
+    <li>naudojamas tik tam, kad pranešimai ir Live Activity atnaujinimai pasiektų
+      jūsų pasirinktas rungtynes;</li>
     <li>atnaujinamas kaskart paleidus programą;</li>
-    <li>ištrinamas, jei 35 dienas jo neatnaujina.</li>
+    <li>ištrinamas, jei 35 dienas lieka neatnaujintas.</li>
   </ul>
-  <p>Live Activity tokenas laikomas trumpiau: jis pririšamas prie konkrečių rungtynių ir
-    trinamas ne vėliau kaip po 12 valandų po rungtynių pradžios. Paprastai anksčiau —
-    kada rungtynės baigia.</p>
-  <p>Registruojant tokeną, serveris taip pat laiko <strong>druskos suderintą IP adreso
-    pirminės dalies maišą</strong> (salted prefix-hash). Pilnas IP adresas niekada neišlieka,
-    o maiša turi vieną paskirtį — apriboti registracijų kiekį iš vieno tinklo per valandą
-    (rate limit). Nė vieno žmogaus ja neidentifikuojame.</p>
+  <p>Live Activity tokenas saugomas dar trumpiau: jis pririšamas prie konkrečių rungtynių
+    ir ištrinamas ne vėliau kaip po 12 valandų po rungtynių pradžios. Paprastai anksčiau —
+    pasibaigus rungtynėms.</p>
+  <p>Kartu su tokeno registracija serveryje saugoma <strong>su druska paruošta IP adreso
+    pirminės dalies maiša</strong> (angl. salted prefix-hash). Pilnas IP adresas niekada
+    neišlieka, o maiša turi vieną paskirtį — riboti registracijų skaičių iš vieno tinklo
+    per valandą (rate limit). Nė vieno žmogaus ja neatpažįstame.</p>
 
   <h2>Duomenų šalinimas</h2>
   <ul>
-    <li>Išjungę pranešimus (programos Nustatymuose), jūsų įrašas serveryje ištrinamas iš karto.</li>
-    <li>Ištrynę programą, vietiniai duomenys (įskaitant App Group) dingsta su ja; serverio
+    <li>Išjungus pranešimus programos „Nustatymuose“, jūsų įrašas serveryje ištrinamas
+      iš karto.</li>
+    <li>Ištrynus programą, dingsta visi įrenginio duomenys (įskaitant App Group); serverio
       įrašas nebenaudojamas ir ištrinamas savaime — ne vėliau kaip po 35 dienų.</li>
-    <li>Norite, kad serveryje likęs įrašas būtų ištrintas greičiau arba turite kitą prašymą?
-      Rašykite kaip žemiau (Kontaktas).</li>
+    <li>Norite, kad įrašas būtų ištrintas anksčiau, ar turite kitą prašymą? Rašykite taip,
+      kaip nurodo skyrius „Kontaktas“.</li>
   </ul>
 
   <h2>Dažniausi klausimai</h2>
   <dl>
-    <dt>Iš kur gauvota rungtynių duomenys?</dt>
-    <dd>Iš viešo saugyklos aplanko per HTTPS. Nustatymuose („Šaltinis“) matote adresą,
-      o („Atnaujinta“) — kada paskutinį kartą atnaujinta.</dd>
+    <dt>Iš kur gaunami rungtynių duomenys?</dt>
+    <dd>Iš viešos saugyklos per HTTPS. „Nustatymuose“ matote adresą („Šaltinis“) ir
+      paskutinio atnaujinimo laiką („Atnaujinta“).</dd>
     <dt>Kaip pasekti komandą ar lygą?</dt>
-    <dd>Meniu (viršuje dešinėje) → „Redaguoti“ → „Mano sportas“. Pažymėkite lygą ar komandą —
-      jų rungtynės atsiras rezultatų sąraše viršuje.</dd>
+    <dd>Meniu (viršuje dešinėje) → „Redaguoti“ → „Mano sportas“. Pažymėję lygą arba komandą,
+      jų rungtynes matysite rezultatų sąraše viršuje.</dd>
     <dt>Kaip įjungti pranešimus?</dt>
-    <dd>Programos Nustatymuose prie komandos: įvarčiai, rungtynių pradžia, pabaiga ir
-      raudona kortelė. Jei iOS anksčiau klausė leidimo ir jį atmetėte, atverkite
-      iOS Nustatymai → Pranešimai → „Lyga“.</dd>
-    <dt>Kodėl rezultatas neatsinaujino?</dt>
-    <dd>Gyvose rungtynėse rezultatas atsinaujina kas minutę. Nustatymuose („Atnaujinta“)
-      matėte, kada gautus duomenys. Jei įtariate klaidą, praneškite GitHub saugykloje žemiau.</dd>
+    <dd>Programos „Nustatymuose“ pažymėkite komandai: įvarčiai, rungtynių pradžia, pabaiga
+      ir raudona kortelė. Jei iOS anksčiau klausė leidimo ir jį atmetėte, atverkite
+      iOS „Nustatymai“ → „Pranešimai“ → „Lyga“.</dd>
+    <dt>Kodėl rezultatas neatnaujintas?</dt>
+    <dd>Gyvų rungtynių rezultatas atsinaujina kas minutę. „Atnaujinta“ parodo, kada duomenys
+      gauti. Kilus abejonei dėl rezultato, rašykite taip, kaip nurodo skyrius „Kontaktas“.</dd>
     <dt>Sezonas baigiasi — kas nutiks programai?</dt>
-    <dd>Niekas. Rungtynės, lentelės ir taurės mačai lieka žiūrimi; artėjančios rungtynės
-      pasirodo, kai tik jų kalendorius paskelbiamas.</dd>
-    <dt>Kokią versiją reikia?</dt>
+    <dd>Niekas. Pasibaigusios rungtynės, lentelės ir taurės mačai lieka matomi; artėjančios
+      pasirodo, kai tik paskelbiamas jų kalendorius.</dd>
+    <dt>Kokia versija reikalinga?</dt>
     <dd>iPhone su iOS 17 arba naujesne. Programa nemokama.</dd>
   </dl>
 
   <h2>Kontaktas</h2>
-  <p>Klausimais apie šį puslapį, duomenų ištrynimą arba kitais prašymais atverkite problemą
-    (issue) palaikymo saugyklai: <a href="https://github.com/covertopcover/lyga-site/issues">github.com/covertopcover/lyga-site/issues</a>.</p>
+  <p>Dėl šio puslapio, norint ištrinti serveryje esančius duomenis ar dėl bet ko kito —
+    atverkite problemą (issue) palaikymo saugykloje:
+    <a href="https://github.com/covertopcover/lyga-site/issues">lyga-site/issues</a>.</p>
 </section>
 
 <section id="en" lang="en">
