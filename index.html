@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="color-scheme" content="light dark">
 <title>„Lyga“ — privatumo politika ir pagalba</title>
-<meta name="description" content="„Lyga“ — Lietuvos futbolo rezultatų programa iPhone telefonui. Privatumo politika (š/lt ir en) bei palaikymas.">
+<meta name="description" content="„Lyga“ — Lietuvos futbolo rezultatų programa iPhone telefonui. Privatumo politika (lietuviškai ir en) bei palaikymas.">
 <style>
   :root {
     --bg: #fafaf9;
@@ -87,25 +87,24 @@
       el. pašto adresų.</li>
     <li><strong>Nesekama.</strong> Programoje nėra nei analitikos, nei reklamų, nei jokių
       kitų sekimo priemonių. Duomenys jokiais tikslais neparduodami ir neskelbiami.</li>
-    <li><strong>Jūsų pasirinkimai lieka telefone.</strong> Sekamos lygos ir komandos,
-      pranešimų nustatymai ir rezultatų slėpimas saugomi tik jūsų įrenginyje.</li>
-    <li><strong>Serveryje — tik tai, ko reikia pranešimams.</strong> Įjungus pranešimus arba
-      Live Activity, serveryje saugomas iOS pranešimų tokenas ir — apsaugai nuo registracijų
-      apgaulės — su druska (angl. „salted“) paruošta IP adreso pirminės dalies maiša. Paties
-      adreso serveryje niekada nėra.</li>
-    <li><strong>Duomenys nesaugomi ilgai.</strong> Pranešimų įrašas ištrinamas iš karto
-      išjungus pranešimus, o be atnaujinimo — ne vėliau kaip po 35 dienų. Live Activity
-      tokenas nesaugomas ilgiau kaip 12 valandų po rungtynių pradžios; paprastai dingsta
-      anksčiau — pasibaigus rungtynėms.</li>
+    <li><strong>Pasirinkimai lieka telefone.</strong> Sekamos lygos ir komandos bei
+      rezultatų slėpimas saugomi tik jūsų įrenginyje. Išimtis — pranešimų parinktys:
+      įjungus pranešimus, jos persiduoda ir serveriui (žr. žemiau).</li>
+    <li><strong>Serveryje — tik tai, ko reikia pranešimams.</strong> Įjungus pranešimus
+      arba Live Activity, serveryje saugomas iOS pranešimų tokenas, jūsų pažymėtų komandų
+      pranešimų parinktys ir — apsaugai nuo registracijų piktnaudžiavimo — trumpa su druska
+      apskaičiuota IP adreso maišos dalis. Paties adreso serveryje niekada nėra.</li>
+    <li><strong>Duomenys nesaugomi ilgai.</strong> Išjungus pranešimus, jūsų įrašas
+      serveryje nieko nebegauna ir ištrinamas savaime — ne vėliau kaip po 35 dienų be
+      atnaujinimo. Live Activity tokenas nesaugomas ilgiau kaip 12 valandų po rungtynių
+      pradžios, o įrenginio įrašas — ne ilgiau kaip 180 dienų be naudojimo.</li>
   </ul>
 
   <h2>Rungtynių duomenys ir iš kur jie</h2>
-  <p>Rezultatai, lentelės, tvarkaraščiai ir komandų logotipai skaitomi iš viešai
-    prieinamos saugyklos per HTTPS. Tai vieši rungtynių duomenys — jokios asmeninės
-    informacijos juose nėra. Programos „Nustatymuose“ matote, iš kur atsisiunčiama
-    („Šaltinis“), ir kada duomenys atnaujinti („Atnaujinta“).</p>
-  <p>Pati programa duomenų iš svetainių nerenka — tai daro atskiras duomenų procesas, kuris
-    serveryje atnaujina rezultatus kas minutę.</p>
+  <p>Rezultatai, lentelės, tvarkaraščiai ir komandų logotipai skaitomi iš mūsų duomenų
+    serverio (ES viduje) per HTTPS. Tai vieši rungtynių duomenys — jokios asmeninės
+    informacijos juose nėra. Programos „Nustatymuose“ matote duomenų būseną („Šaltinis“)
+    ir kada jie gauti („Atnaujinta“).</p>
 
   <h2>Ką saugo jūsų telefonas</h2>
   <p>Programa savo duomenis laiko jūsų įrenginyje:</p>
@@ -114,33 +113,42 @@
     <li>pranešimų nustatymai (įvarčiai, rungtynių pradžia, pabaiga, raudona kortelė);</li>
     <li>rezultatų slėpimo (spoiler) nustatymai.</li>
   </ul>
-  <p>Šie duomenys per App Group pasiekiami ir namų ekrano valdikliams — taip visur matote tą
-    patį sąrašą. Niekas iš jų neišeina už jūsų iPhone ribų: ištrynus programą, dingsta ir duomenys.</p>
+  <p>Šie duomenys naudojami ir namų ekrano valdikliams — taip visur matote tą patį
+    sąrašą. Jie lieka jūsų telefone: ištrynus programą, dingsta ir duomenys. Išimtis —
+    pranešimų parinktys taip pat persiduoda serveriui (žr. skyrių žemiau).</p>
 
   <h2>Pranešimai ir Live Activity: ką laiko serveris</h2>
   <p>Kai įjungiate pranešimus apie įvarčius, rungtynių pradžią, pabaigą arba raudoną
-    kortelę, arba leidžiate Live Activity atsinaujinti neatidarę programos, jūsų įrenginio
-    iOS pranešimų (push) tokenas išsaugomas „Lyga“ serveryje. Jis:</p>
+    kortelę arba naudojate Live Activity, jūsų įrenginio iOS pranešimų (push) tokenas
+    išsaugomas „Lyga“ serveryje. Kartu su juo laikomas sąrašas:</p>
   <ul>
-    <li>naudojamas tik tam, kad pranešimai ir Live Activity atnaujinimai pasiektų
-      jūsų pasirinktas rungtynes;</li>
-    <li>atnaujinamas kaskart paleidus programą;</li>
-    <li>ištrinamas, jei 35 dienas lieka neatnaujintas.</li>
+    <li>pranešimams — jūsų pažymėtos komandos ir kiekvienos jų įjungti pranešimų tipai;</li>
+    <li>Live Activity — atsitiktinis įrenginio ID (be jokių kitų duomenų apie jus), jo
+      tokenas ir komandos ar rungtynės, kurių Live Activity naudojate.</li>
   </ul>
-  <p>Live Activity tokenas saugomas dar trumpiau: jis pririšamas prie konkrečių rungtynių
-    ir ištrinamas ne vėliau kaip po 12 valandų po rungtynių pradžios. Paprastai anksčiau —
-    pasibaigus rungtynėms.</p>
-  <p>Kartu su tokeno registracija serveryje saugoma <strong>su druska paruošta IP adreso
-    pirminės dalies maiša</strong> (angl. salted prefix-hash). Pilnas IP adresas niekada
-    neišlieka, o maiša turi vieną paskirtį — riboti registracijų skaičių iš vieno tinklo
-    per valandą (rate limit). Nė vieno žmogaus ja neatpažįstame.</p>
+  <p>Tai naudojama tik tam, kad pranešimai ir Live Activity atnaujinimai pasiektų jūsų
+    pasirinktas komandas ir rungtynes. Programėlė šiuos duomenis atnaujina, kai susisiekia
+    su serveriu — paleidimo, aktyvinimo ar pasirinkčių pakeitimo metu. Pranešimų įrašas
+    ištrinamas, jei 35 dienas lieka neatnaujintas.</p>
+  <p>Live Activity tokenas pririšamas prie konkrečių rungtynių ir neišlieka ilgiau kaip
+    12 valandų po rungtynių pradžios. Paprastai anksčiau — pasibaigus rungtynėms. Įrenginio
+    įrašas (ID su stebimų komandų ir rungtynių sąrašu) ištrinamas iš karto, kai
+    nebestebite nė vienos komandos ar rungtynės, o kitaip — savaime, ne vėliau kaip po
+    180 dienų be naudojimo.</p>
+  <p>Kartu su tokeno registracija serveryje saugoma <strong>trumpa, su druska apskaičiuota
+    IP adreso maišos dalis</strong> (pirmi 64 bitai). Pilnas IP adresas niekada neišlieka,
+    o maiša turi vieną paskirtį — riboti registracijų skaičių iš vieno adreso per valandą
+    (rate limit). Nė vieno žmogaus ja neatpažįstame.</p>
 
   <h2>Duomenų šalinimas</h2>
   <ul>
-    <li>Išjungus pranešimus programos „Nustatymuose“, jūsų įrašas serveryje ištrinamas
-      iš karto.</li>
-    <li>Ištrynus programą, dingsta visi įrenginio duomenys (įskaitant App Group); serverio
-      įrašas nebenaudojamas ir ištrinamas savaime — ne vėliau kaip po 35 dienų.</li>
+    <li>Išjungus visus pranešimus, įrašas serveryje lieka be sekamų komandų — nieko
+      nebegauna ir savaime ištrinamas ne vėliau kaip po 35 dienų.</li>
+    <li>Išjungus Live Activity visoms komandoms ir nebestebint rungtynių, įrenginio įrašas
+      ištrinamas iš karto.</li>
+    <li>Ištrynus programą, dingsta visi įrenginio duomenys; serverio įrašai nebenaudojami
+      ir ištrinami savaime — pranešimų ne vėliau kaip po 35 dienų, Live Activity — po 180
+      dienų be naudojimo.</li>
     <li>Norite, kad įrašas būtų ištrintas anksčiau, ar turite kitą prašymą? Rašykite taip,
       kaip nurodo skyrius „Kontaktas“.</li>
   </ul>
@@ -148,8 +156,8 @@
   <h2>Dažniausi klausimai</h2>
   <dl>
     <dt>Iš kur gaunami rungtynių duomenys?</dt>
-    <dd>Iš viešos saugyklos per HTTPS. „Nustatymuose“ matote adresą („Šaltinis“) ir
-      paskutinio atnaujinimo laiką („Atnaujinta“).</dd>
+    <dd>Iš mūsų duomenų serverio (ES viduje) per HTTPS. „Nustatymuose“ („Šaltinis“) matote
+      duomenų būseną, o („Atnaujinta“) — kada jie gauti.</dd>
     <dt>Kaip pasekti komandą ar lygą?</dt>
     <dd>Meniu (viršuje dešinėje) → „Redaguoti“ → „Mano sportas“. Pažymėję lygą arba komandą,
       jų rungtynes matysite rezultatų sąraše viršuje.</dd>
@@ -162,14 +170,21 @@
       gauti. Kilus abejonei dėl rezultato, rašykite taip, kaip nurodo skyrius „Kontaktas“.</dd>
     <dt>Sezonas baigiasi — kas nutiks programai?</dt>
     <dd>Niekas. Pasibaigusios rungtynės, lentelės ir taurės mačai lieka matomi; artėjančios
-      pasirodo, kai tik paskelbiamas jų kalendorius.</dd>
+      pasirodo, kai tik paskelbtas jų kalendorius.</dd>
     <dt>Kokia versija reikalinga?</dt>
     <dd>iPhone su iOS 17 arba naujesne. Programa nemokama.</dd>
   </dl>
 
+  <h2>Duomenų valdymas</h2>
+  <p>Duomenų valdytojas yra „Lyga“ kūrėjas — bet koks prašymas ar klausimas dėl duomenų
+    sprendžiamas skyriuje „Kontaktas“. Duomenims talpinti (serveris — ES viduje) ir
+    pranešimams pristatyti pasitelkiami paslaugų teikėjai: jie apdoroja duomenis tik šiam
+    tikslui ir savo tikslais jų nesunaudoja. Manote, kad jūsų duomenys apdorojami
+    netinkamai? Turite teisę skųstis Valstybinei duomenų apsaugos inspekcijai.</p>
+
   <h2>Kontaktas</h2>
   <p>Dėl šio puslapio, norint ištrinti serveryje esančius duomenis ar dėl bet ko kito —
-    atverkite problemą (issue) palaikymo saugykloje:
+    sukurkite problemą (issue) palaikymo saugykloje:
     <a href="https://github.com/covertopcover/lyga-site/issues">lyga-site/issues</a>.</p>
 </section>
 
@@ -188,22 +203,24 @@
     <li><strong>No account required.</strong> Nothing to sign up for, no names or e-mail addresses.</li>
     <li><strong>No tracking.</strong> No analytics, ads or tracking SDKs in the app. No data is
       passed on for advertising (“tracking”).</li>
-    <li><strong>Your choices stay on the phone.</strong> Followed leagues and teams, notification
-      settings and score-hiding options are stored only on your device.</li>
-    <li><strong>The server only sees what notifications need.</strong> When you enable
-      notifications or a Live Activity, the app's server keeps the iOS push token and — for
-      registration abuse limits — a salted hash of an IP-address prefix (never the address itself).</li>
-    <li><strong>Data does not last.</strong> A notification record is deleted the moment you turn
-      notifications off, and at the latest after 35 days without a refresh. A Live Activity
-      token is never kept longer than 12 hours after kickoff — usually until full time.</li>
+    <li><strong>Your choices stay on the phone.</strong> Followed leagues and teams and
+      score-hiding options are stored only on your device. The exception: when you enable
+      notifications, their settings are mirrored to the server too (see below).</li>
+    <li><strong>The server keeps only what notifications need.</strong> When you enable
+      notifications or a Live Activity, the app's server keeps the iOS push token, the
+      followed teams with their alert settings and — against registration abuse — a short
+      salted hash of the IP address (never the address itself).</li>
+    <li><strong>Data does not last.</strong> Once notifications are off, your server record
+      receives nothing and is deleted automatically — at the latest 35 days after the last
+      refresh. A Live Activity token is never kept longer than 12 hours after kickoff, and
+      the install row stays at most 180 days without use.</li>
   </ul>
 
   <h2>Match data and where it comes from</h2>
-  <p>Scores, tables, fixtures and club logos are read from a publicly available storage bucket
-    over HTTPS. This is publicly visible match data; it contains no personal information.
-    The app's Settings shows where data is read from (“Šaltinis”) and when it was last
-    refreshed (“Atnaujinta”).</p>
-  <p>The app itself does not scrape websites: that is done by a separate data pipeline.</p>
+  <p>Scores, tables, fixtures and club logos are read from the app's own data server inside
+    the EU over HTTPS. This is publicly visible match data; it contains no personal
+    information. The app's Settings (“Šaltinis”) shows the data status and (“Atnaujinta”)
+    when it was last fetched.</p>
 
   <h2>What your phone keeps</h2>
   <p>The app keeps its data on your device:</p>
@@ -212,39 +229,50 @@
     <li>notification settings (goals, kickoff, final, red card);</li>
     <li>score-hiding (spoiler) settings.</li>
   </ul>
-  <p>These are shared with the home-screen widgets through an App Group, so the same list is
-    visible across the system. None of it lives beyond your iPhone — when you delete the app,
-    the data goes with it.</p>
+  <p>These are shared with the home-screen widgets, so the same list is visible across the
+    system. They stay on your iPhone: when you delete the app, the data goes with it. The
+    exception: notification settings are mirrored to the server too (see below).</p>
 
   <h2>Notifications and Live Activities (what the server keeps)</h2>
-  <p>When you enable goal, kickoff, final or red-card notifications for a team, or let a
-    Live Activity update without opening the app, your device's iOS push token is stored on
-    the “Lyga” server. It:</p>
+  <p>When you enable goal, kickoff, final or red-card notifications for a team, or use a
+    Live Activity, your device's iOS push token is stored on the “Lyga” server. Kept
+    alongside it:</p>
   <ul>
-    <li>is used only to deliver notifications and Live Activity updates for the matches you chose;</li>
-    <li>is refreshed every time you launch the app;</li>
-    <li>is deleted if it has not been refreshed for 35 days.</li>
+    <li>for notifications — the teams you follow, each with its enabled alert kinds;</li>
+    <li>for Live Activities — a random install ID (nothing else about you), its token and
+      the teams or matches whose Live Activity you use.</li>
   </ul>
-  <p>A Live Activity token is kept for less time: it is tied to a specific match and is dropped
-    at most 12 hours after kickoff. Usually earlier — when the match reaches full time.</p>
-  <p>Along with a token registration, the server also keeps a <strong>salted prefix-hash of the
-    IP address</strong> (salted prefix-hash). The full IP address is never stored, and the hash
-    has one purpose: limiting how many registrations may come from one network per hour
-    (a rate limit). Nobody is identified with it.</p>
+  <p>All of it serves one purpose: delivering notifications and Live Activity updates for
+    the teams and matches you chose. The app refreshes these data whenever it reaches the
+    server — at launch, on activation or when a preference changes. The notification record
+    is deleted if it goes 35 days unrefreshed.</p>
+  <p>A Live Activity token is tied to a specific match and is never kept longer than 12
+    hours after kickoff. Usually earlier — at full time. The install row (the ID with the
+    list of followed teams and matches) is deleted at once when you stop following
+    anything, otherwise automatically — at the latest 180 days after the last use.</p>
+  <p>Along with a token registration, the server also keeps a <strong>short salted hash of
+    the IP address</strong> (first 64 bits). The full IP address is never stored, and the
+    hash has one purpose: limiting how many registrations may come from one address per
+    hour (a rate limit). Nobody is identified with it.</p>
 
   <h2>Removing your data</h2>
   <ul>
-    <li>Turning notifications off (in the app's Settings) deletes your server record at once.</li>
-    <li>Deleting the app removes all local data (including the App Group); the server record is
-      no longer used and is deleted automatically — at the latest after 35 days.</li>
+    <li>Turning notifications off (in the app's Settings) leaves the record without any
+      followed teams — nothing is sent, and it is deleted automatically after 35 days
+      without a refresh.</li>
+    <li>Turning Live Activities off for all teams (and not watching any matches) deletes
+      the install record at once.</li>
+    <li>Deleting the app removes all local data; the server records are no longer used and
+      are deleted automatically — notification records after 35 days, Live Activity rows
+      after 180 days.</li>
     <li>Want the remaining record gone sooner, or have another request? See Contact below.</li>
   </ul>
 
   <h2>Common questions</h2>
   <dl>
     <dt>Where does the match data come from?</dt>
-    <dd>From a public storage bucket over HTTPS. Settings (“Šaltinis”) shows the address and
-      (“Atnaujinta”) the last refresh time.</dd>
+    <dd>From the app's data server inside the EU, over HTTPS. Settings (“Šaltinis”) shows
+      the data status and (“Atnaujinta”) the last refresh time.</dd>
     <dt>How do I follow a team or league?</dt>
     <dd>Menu button (top right) → “Redaguoti” → “Mano sportas”. Pick a league or team and their
       matches move to the top of the scoreboard.</dd>
@@ -260,6 +288,13 @@
     <dt>What version do I need?</dt>
     <dd>An iPhone with iOS 17 or newer. The app is free.</dd>
   </dl>
+
+  <h2>The data controller</h2>
+  <p>The data controller is the “Lyga” developer — any request or question about your data
+    goes through Contact below. Hosting (the server is inside the EU) and notification
+    providers process the data only for this purpose and never use it for their own. If you
+    believe your data is being processed incorrectly, you have the right to lodge a
+    complaint with Lithuania's State Data Protection Inspectorate.</p>
 
   <h2>Contact</h2>
   <p>Questions about this page, data-deletion requests or anything else: open an issue on the
